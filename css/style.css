@@ -1,0 +1,369 @@
+/*
+ОСНОВНЫЕ ЦВЕТА
+РОЗОВЫЙ #ff375b
+СИНИЙ #202632
+СЕРЫЙ #f2f2f2
+*/
+html,body{
+  background-color: #f2f2f2;
+  margin: 0;
+}
+div{
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.aaa,.aaa:hover{
+  text-decoration: none;
+  color: #202632;
+  font-weight: bold;
+}
+
+.navbar-toggler-icon{
+	color:#202632;
+	font-size:20px;
+	font-weight:bolder;
+}
+span{
+	color:#202632;
+	font-size:18px;
+}
+.navbar a{
+	color:#202632;
+	font-size:18px;
+	font-weight:bolder;
+}
+.navbar a:hover,.navbar a:focus{
+	color:#ff375b;
+	font-size:18px;
+	font-weight:bolder;
+	border-bottom: 3px solid #ff375b;
+
+}
+
+.clearfix:after {
+  content: '';
+  display: table;
+  width: 100%;
+  clear: both;
+}
+.logo_p{
+	padding-top: 100px;
+	padding-bottom: 20px;
+	margin-bottom: 0;
+	text-align: center;
+}
+.head_bg{
+	text-align: center;
+}
+.head_img img{
+	height:100%;
+	width: 100%;
+	/*border: 2px solid red;*/
+}
+h1{
+  font-weight: bold;
+  font-size: 40pt;
+  margin-top: 0;
+  text-align: center;
+  color: #202632;
+  padding-top: 100px;
+}
+h2{
+  font-weight: bold;
+  font-size: 20pt;
+  margin-top: 0;
+  text-align: center;
+  color: #202632;
+}
+.navbar{
+  /*border: 2px solid red;*/
+  text-align: center;
+}
+.nav-item{
+  /*border: 2px solid red;*/
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.services{
+background-color: #f2f2f2;
+padding-bottom: 100px;
+}
+.row{
+/*  padding-top: 70px;*/
+  text-align: center;
+
+}
+.col-sm{
+text-align: center;
+}
+.services img{
+  padding-bottom: 50px;
+padding-top: 50px;
+}
+.services p{
+  padding-top: 45px;
+  font-weight: bold;
+}
+.services button{
+  color: #fff; /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  background-color: #202632; /* фон кнопки */
+  padding: 9px; /* отступ от текста */
+  outline: none; /* убирать контур в Mozilla */
+	font-family:sans-serif;
+	border:1px solid #202632;
+  border-radius:50px;
+	border-color: #202632;
+	width: 240px; /*размер кнопки*/
+  text-align: center;
+  font-weight: bold;
+}
+.capabilities{
+  background-color: #202632;
+}
+.capabilities h1{
+  margin-top:0;
+  padding-top: 100px;
+  color: #fff;
+}
+.capabilities p{
+  color: #fff;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 15pt;
+  text-align: center;
+
+}
+.capabilities2 button{
+  color: #202632; /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  background-color: #fff; /* фон кнопки */
+  padding: 9px; /* отступ от текста */
+  outline: none; /* убирать контур в Mozilla */
+	font-family:sans-serif;
+	border:1px solid #202632;
+  border-radius:50px;
+	border-color: #202632;
+	width: 240px; /*размер кнопки*/
+  text-align: center;
+  font-weight: bold;
+}
+.capabilities2{
+  border-top: 5px solid #fff;
+  background-color: #202632;
+  color: #fff;
+  font-weight: bold;
+  font-size: 15pt;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.shad{
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+}
+.shad button:hover{
+background-color: #ff375b;
+color: #fff;
+}
+.shad a{
+  color: #202632;
+  text-decoration: none;
+}
+.shad a:hover{
+  color: #fff;
+}
+.shad h2{
+  color: #fff;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.iconn{
+text-align: right;
+}
+.contacts p{
+  padding-top: 45px;
+  font-weight: bold;
+}
+.iconn {
+  text-align: center;
+}
+.fa{
+  height: 40px;
+  width: 40px;
+  background-color: #ff375b;
+  color: #fff;
+  background-color: #ff375b;
+  border-radius:50%;
+	border: 1px solid #ff375b;
+  margin: 10px;
+padding-top: 10px;
+}
+footer{
+  background: url(..//img/bg.png) repeat;
+  height: 524px;
+}
+footer p{
+  color:#fff;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 470px;
+}
+
+
+/*21.11.*/
+
+.fa:hover{
+ -webkit-transform: scale(1.2);
+ -ms-transform: scale(1.2);
+ transform: scale(1.2);
+}
+
+
+
+
+
+/*capabilities*/
+
+.h1double{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 30pt;
+}
+h3{
+  font-size: 16px;
+  font-weight: bolder;
+}
+h4{
+  font-size: 16px;
+  font-weight: bolder;
+}
+.border_right{
+  border-right: 5px solid #202632;
+}
+.btn{
+  margin-top: 10px;
+  float: left;
+  margin-right: 5px;
+  background-color:#202632;
+  border: 0;
+}
+.btn:hover{
+  background-color:#ff375b;
+}
+.btn:focus{
+box-shadow: none;
+}
+
+.left{
+  background: #fff;
+  float: left;
+  width: 30%;
+  padding: 5px;
+  text-align: left;
+}
+.right{
+  background: #fff;
+  float: right;
+  width: 70%;
+  padding: 5px;
+  border-radius: 10px;
+  text-align: left;
+}
+.col1{
+ /*border: 2px solid red;*/
+ padding-top: 5px;
+ padding-left: 5px;
+ padding-right: 5px;
+}
+
+.one_user{
+  border-radius: 20px;
+  background: #fff;
+  height: 100%;
+}
+
+.col-auto{
+  color: #202632;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.custom-select{
+  color: #202632;
+  width: 100%;
+}
+/*capabilities*/
+
+
+
+/*акаунт пользователя*/
+
+.user_acc{
+  text-align: right;
+  padding-top: 15px;
+  height: 40px;
+}
+.user_acc a{
+  margin-left: 20px;
+  color: #fff; /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  background-color: #202632; /* фон кнопки */
+  padding: 9px; /* отступ от текста */
+  outline: none; /* убирать контур в Mozilla */
+  font-family:sans-serif;
+  border:1px solid #202632;
+  border-radius:50px;
+  border-color: #202632;
+  width: 300px; /*размер кнопки*/
+  text-align: center;
+  font-weight: bold;
+}
+.user_acc a:hover{
+  background-color: #ff375b;
+  border:1px solid #ff375b;
+  border-color: #ff375b;
+}
+.col_UsPag{
+  padding: 0;
+  height: 320px;
+  background: #202632;
+  color: #fff;
+  text-align: left;
+}
+.col_UsPag h3{
+  text-align: center;
+}
+.user_photo{
+  margin-top: 10px;
+  width: 300px;
+  height:300px;
+  padding: 0;
+}
+.user_photoP{
+  text-align: center;
+  padding: 0;
+}
+.table{
+  text-align: left;
+}
+.border_bottom{
+  border-bottom: 2px solid #202632;
+}
+.list_auto{
+  font-size: 30px;
+  margin: 10px;
+}
+.list_auto_all{
+    border-bottom: 2px solid #202632;
+}
+/*акаунт пользователя*/

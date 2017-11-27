@@ -123,6 +123,11 @@ padding-top: 50px;
   text-align: center;
   font-weight: bold;
 }
+.services button:hover{
+  color: #fff;
+  background-color:#ff375b;
+  border-color: #ff375b;
+}
 .capabilities{
   background-color: #202632;
 }
@@ -156,7 +161,6 @@ padding-top: 50px;
   font-weight: bold;
 }
 .capabilities2{
-  border-top: 5px solid #fff;
   background-color: #202632;
   color: #fff;
   font-weight: bold;
@@ -164,10 +168,6 @@ padding-top: 50px;
   text-align: center;
   padding-top: 40px;
   padding-bottom: 40px;
-}
-.shad{
-  border-left: 2px solid #fff;
-  border-right: 2px solid #fff;
 }
 .shad button:hover{
 background-color: #ff375b;
@@ -357,13 +357,13 @@ box-shadow: none;
   text-align: left;
 }
 .border_bottom{
-  border-bottom: 2px solid #202632;
+  border-bottom: 5px solid #202632;
 }
 .list_auto{
   font-size: 30px;
   margin: 10px;
 }
-.list_auto_all{
-    border-bottom: 2px solid #202632;
+.th{
+ text-align: right;
 }
 /*акаунт пользователя*/

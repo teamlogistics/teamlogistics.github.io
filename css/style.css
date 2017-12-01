@@ -400,7 +400,36 @@ box-shadow: none;
 
 
 /*Калькулятор начало*/
+.calculator h1{
+    padding-top:0px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+.calculator h2{
+  width: 100%;
+}
 
-
-
+.calculator button{
+    color: #fff; /* цвет текста */
+    text-decoration: none; /* убирать подчёркивание у ссылок */
+    user-select: none; /* убирать выделение текста */
+    background-color: #202632; /* фон кнопки */
+    padding: 9px; /* отступ от текста */
+    outline: none; /* убирать контур в Mozilla */
+  	font-family:sans-serif;
+  	border:1px solid #202632;
+    border-radius:50px;
+  	border-color: #202632;
+  	width: 240px; /*размер кнопки*/
+    text-align: center;
+    font-weight: bold;
+  }
+.calculator button:hover{
+    color: #fff;
+    background-color:#ff375b;
+    border-color: #ff375b;
+  }
+.but_res{
+  width: 100%;
+}
 /*Калькулятор конец*/

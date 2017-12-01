@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<!-- Titles -->
+	<title>Document</title>
+	<meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.css">
+	<!-- Styles -->
+	<link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+
+
+	<!-- FavIcon -->
+	<link rel="icon" href="img/favicon.png"  type="image/x-icon" />
+
+
+
+</head>
+<body>
+<header>
+ <div class="container">
+    <h1>Расчет стоимости топлива</h1>
+   <div class="row">
+     <p>Стоимость бензина(за литр): <input type="text" id="n1"></p>
+
+     <p>Расход на 1км: <input type="text" id="n2"></p>
+
+     <p>Растояние(в км): <input type="text" id="n3"></p>
+
+     <button onclick="plus()">Расчитать</button>
+
+     <p >Результат:</p>
+     <p id="out"></p>
+   </div>
+ </div>
+</header>
+
+
+
+  <footer>
+    <p>COPYRIGHT 2017</p>
+  </footer>
+  <!-- конец -->
+  	<!-- Библиотека jQuery - необходима для Bootstrap плагинов -->
+  	<script src="libs/jquery/jquery.min.js"></script>
+
+  	<!-- Bootstrap JS скрипты -->
+  	<script src="libs/bootstrap/js/bootstrap.js"></script>
+  	<script src="libs/bootstrap/js/bootstrap.bundle.js"></script>
+
+  	<script src="libs/wowjs/wow.min.js"></script>
+  	<script>
+  	 new WOW().init();
+  	</script>
+
+
+  	<!-- Собственные JS скрипты -->
+  	<script src="js/main.js"></script>
+
+  </body>
+  </html>

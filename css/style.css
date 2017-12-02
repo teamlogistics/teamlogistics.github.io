@@ -4,6 +4,10 @@
 СИНИЙ #202632
 СЕРЫЙ #f2f2f2
 */
+h1,h2,h3,h4,h5,h6,p,a{
+
+}
+
 html,body{
   background-color: #f2f2f2;
   margin: 0;
@@ -33,7 +37,7 @@ span{
 .navbar a{
 	color:#202632;
 	font-size:18px;
-	font-weight:bolder;
+  font-weight:bolder;
 }
 .navbar a:hover,.navbar a:focus{
 	color:#ff375b;
@@ -407,6 +411,9 @@ box-shadow: none;
 }
 .calculator h2{
   width: 100%;
+  text-align: left;
+  padding-top: 30px;
+  font-size: 20px;
 }
 
 .calculator button{
@@ -430,6 +437,7 @@ box-shadow: none;
     border-color: #ff375b;
   }
 .but_res{
+  padding-top: 30px;
   width: 100%;
 }
 /*Калькулятор конец*/

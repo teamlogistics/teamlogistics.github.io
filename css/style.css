@@ -391,6 +391,10 @@ box-shadow: none;
   text-align: center;
 
 }
+.right a{
+  text-decoration: none;
+  color: #fff;
+}
 .table{
   text-align: left;
 }

@@ -471,5 +471,13 @@ padding: 25px;
   border: 2px solid #202632;
   padding: 20px;
 }
+.money input, button{
+margin-left: 390px;
+  width: 300px;
+
+}
+.money{
+  text-align: center;
+}
 
 /*О НАС*/

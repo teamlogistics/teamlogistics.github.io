@@ -456,5 +456,20 @@ box-shadow: none;
 /*Калькулятор конец*/
 
 /*О НАС*/
+.team{
+width: 100%;
+padding: 25px;
+}
+.man{
+  text-align: right;
+}
+.woman{
+  text-align: left;
+}
+.kontur{
+  border-radius: 15px;
+  border: 2px solid #202632;
+  padding: 20px;
+}
 
 /*О НАС*/

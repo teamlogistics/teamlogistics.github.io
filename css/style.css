@@ -479,3 +479,42 @@ font-size: 20px;
   text-align: center;
 }
 /*О НАС*/
+
+
+/*formConnect*/
+
+.formConnect{
+width: 100%;
+text-align:center;
+
+}
+.inputMes{
+  height: 170px;
+  width: 90%;
+  margin-bottom: 30px;
+}
+.inputInfo{
+width: 90%;
+
+}
+.formConnect p{
+  margin-left: 30px;
+}
+.formConnect button{
+color: #fff; /* цвет текста */
+text-decoration: none; /* убирать подчёркивание у ссылок */
+user-select: none; /* убирать выделение текста */
+background-color: #202632; /* фон кнопки */
+padding: 9px; /* отступ от текста */
+outline: none; /* убирать контур в Mozilla */
+font-family:sans-serif;
+border:1px solid #202632;
+border-radius:50px;
+border-color: #202632;
+width: 240px; /*размер кнопки*/
+text-align: center;
+font-weight: bold;
+margin-bottom: 30px;
+}
+
+/*formConnect*/
